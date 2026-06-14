@@ -1,0 +1,49 @@
+#shapeshifter{
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    animation-name: Shapeshifter;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    margin:10px;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Shapeshifter{
+
+    0%{
+        width: 250px;
+        height: 150px;
+        background-color: red;
+        margin: 10px;
+        left: 0px;
+        top: 0px;
+
+
+    }
+
+
+   
+    50%{
+        width: 250px;
+        height: 250px;
+        left: 200px;
+        background-color: rgb(77, 18, 253);
+        top: 0px;
+        border-radius: 0%;
+
+    }
+
+    100%{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(29, 238, 6);
+        border-radius: 50%;
+        left:400px;
+        top:0px;
+    }
+
+
+}
+
